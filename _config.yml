@@ -22,6 +22,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 scholar:
   style: apa
@@ -41,11 +42,9 @@ jekyll-archives:
     tag: archive
 
 seo:
-  title: "My Lab Website"
-  description: "A website for our lab"
-  url: "http://your-lab-website.com"
-  twitter: your_twitter_handle
-  facebook: your_facebook_profile
+  title: "MALer Lab"
+  description: "Music and Art Learning Lab, Sogang University, South Korea"
+  url: "https://MALerLab.github.io"
 
 defaults:
   - scope:
