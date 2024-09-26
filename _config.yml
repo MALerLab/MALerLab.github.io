@@ -1,0 +1,55 @@
+title: "MALer Lab"
+email: "dasaemj@sogang.ac.kr"
+description: "Music and Art Learning Lab, Sogang University, South Korea"
+theme: minima
+domain: MALerLab.github.io
+url: "https://MALerLab.github.io"
+baseurl: "/MALerLab.github.io"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _scss
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
+
+scholar:
+  style: apa
+  locale: en
+  source: "./_bibliography"
+  bibliography: "references.bib"
+  # bibliography_template: "%{reference}"
+  # details_dir: "publications"
+  # details_layout: "publication"
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+
+seo:
+  title: "My Lab Website"
+  description: "A website for our lab"
+  url: "http://your-lab-website.com"
+  twitter: your_twitter_handle
+  facebook: your_facebook_profile
+
+defaults:
+  - scope:
+      path: "" # 모든 파일에 적용
+      type: ""
+    values:
+      hide_title: true

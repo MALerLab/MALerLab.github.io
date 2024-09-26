@@ -1,0 +1,114 @@
+// _sass/_base.scss
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--primary-color); /* 텍스트 색상 */
+  font-size: calc(0.9rem + 0.25vw);
+  background-color: var(--secondary-color); /* 배경 색상 */
+  line-height: 1.6;
+  overflow-x: hidden;
+  padding: 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--primary-color); /* 제목 텍스트 색상 */
+}
+
+p {
+  color: var(--text-color); /* 본문 텍스트 색상 */
+}
+
+a {
+  color: var(--accent-color); /* 링크 색상 */
+  text-decoration: none;
+  transition: color $transition-speed;
+}
+
+a:hover {
+  /* hover 상태에서 색상을 지정 (darken을 대신할 직접 색상 사용) */
+  color: #005bb5; /* 액센트 색상을 어둡게 처리 */
+}
+
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.75rem;
+  color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+}
+
+.container {
+  h1 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.125rem;
+    color: var(--primary-color);
+  }
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0rem;
+    color: var(--primary-color);
+  }
+  p {
+    color: var(--text-color); /* 본문 텍스트 색상 */
+    margin-bottom: 0rem;
+  }
+  hr {
+    margin: 0.75rem 0;
+    border: 0;
+    border-top: 1px solid var(--shadow-color);
+  }
+  li {
+    color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+    margin-bottom: 0.5rem;
+  }
+  li > details {
+    display: block;
+    summary {
+      cursor: pointer;
+      font-style: italic;
+    }
+  }
+
+  li:has(> details) {
+    list-style: none;
+    margin-left: -1.5rem;
+  }
+  .profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    .profile-content {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      h3 {
+        margin-left: -1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}

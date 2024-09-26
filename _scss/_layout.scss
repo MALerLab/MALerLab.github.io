@@ -1,0 +1,54 @@
+// _sass/_layout.scss
+.container {
+  max-width: 1024px; // 1200px;
+  margin: 4rem auto;
+  margin-top: 0.2rem;
+  padding: 2rem 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  transition: transform var(--transition-speed),
+    box-shadow var(--transition-speed);
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.card p {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+img + em {
+  display: block;
+}
+
+.image-caption {
+  font-size: 0.75rem;
+  color: var(--text-color);
+  em:before {
+    content: "〈 ";
+  }
+  em:after {
+    content: " 〉";
+  }
+}

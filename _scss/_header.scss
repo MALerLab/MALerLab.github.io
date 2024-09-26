@@ -1,0 +1,66 @@
+// _sass/_header.scss
+header {
+  background-color: transparent;
+  padding: 2.25rem 4rem 2rem;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: --primary-color;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  li {
+    margin-bottom: 0;
+  }
+}
+
+.nav-menu a {
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: color var(--transition-speed);
+}
+
+.nav-menu a:hover {
+  color: var(--accent-color);
+}
+.menu-toggle {
+  display: none;
+}
+
+.logo {
+  height: 100%;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    img {
+      height: 3.5rem;
+    }
+  }
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

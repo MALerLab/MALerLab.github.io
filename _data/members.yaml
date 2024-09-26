@@ -1,0 +1,10 @@
+- name: PhD Student
+  yaml_dir: members-phd
+- name: Master's Student
+  yaml_dir: members-ms
+- name: Undergraduate Intern
+  yaml_dir: members-intern
+- name: Researcher
+  yaml_dir: members-researcher
+- name: Alumni
+  yaml_dir: members-alumni

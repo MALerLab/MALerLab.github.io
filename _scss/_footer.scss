@@ -1,0 +1,23 @@
+// _sass/_footer.scss
+footer {
+  background-color: --secondary-color;
+  padding: 2rem;
+  padding-left: 4rem;
+  text-align: left; /* 왼쪽 정렬 */
+  color: --primary-color;
+  font-size: 0.875rem; /* 글씨 크기 조정 */
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.75rem; /* 더 작은 글씨 크기 */
+}
+
+footer a {
+  color: --accent-color;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
