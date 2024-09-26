@@ -2,15 +2,15 @@
 layout: home
 ---
 <div class="image-caption">
-    <img src="/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
+    <img src="{{ site.baseurl }}/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
     <em>MALer Lab in September 2024</em>
 </div>
 
 <br/>
 
 <div class="title-logo">
-    <img class="image-light" src="/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%"/>
-    <img class="image-dark" src="/assets/images/maler-assets/MALER_LOGO_TEXT_WHITE.png" alt="Logo of MALer Lab" width="40%"/>
+    <img class="image-light" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%"/>
+    <img class="image-dark" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_WHITE.png" alt="Logo of MALer Lab" width="40%"/>
 </div>
 
 
