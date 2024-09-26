@@ -37,8 +37,11 @@
   }
 }
 
-// 넓이가 768px 이하일 때 (모바일 화면)
+// under 768px
 @media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
   header {
     padding: 1rem;
     width: 100%;
@@ -81,9 +84,19 @@
     padding: 1rem;
     padding-left: 2rem;
   }
+
+  .profile {
+    flex-direction: column !important;
+    img {
+      width: 70% !important;
+    }
+  }
+  .maler-menu {
+    display: none;
+  }
 }
 
-// 넓이가 480px 이하일 때 (작은 모바일 화면)
+// under 480px
 @media (max-width: 480px) {
   header h1 {
     font-size: 1.2rem;
