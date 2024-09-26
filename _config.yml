@@ -48,7 +48,7 @@ seo:
 
 defaults:
   - scope:
-      path: "" # 모든 파일에 적용
+      path: ""
       type: ""
     values:
       hide_title: true
