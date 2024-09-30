@@ -22,7 +22,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 scholar:
   style: apa
