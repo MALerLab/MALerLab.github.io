@@ -15,6 +15,7 @@
 
       gtag("config", "G-30JXE75HT9");
     </script>
+    {% seo %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:type" content="website" />
@@ -44,18 +45,15 @@
     />
     <meta
       property="og:title"
-      content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+      content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"
     />
-    <title>
-      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
-    </title>
+    <title>{% if page.title %}{{page.title}} - {% endif %}{{site.title}}</title>
     <link
       rel="icon"
       type="image/png"
       href="{{ site.baseurl }}/assets/images/maler-assets/favicon.png"
     />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css" |
-    relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css" />
   </head>
   <body>
     {% include header.html %}
