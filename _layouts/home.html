@@ -49,8 +49,14 @@
     <title>
       {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
     </title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.baseurl }}/assets/images/maler-assets/favicon.png"
+    />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css" |
-    relative_url }}"> {% seo %}
+    relative_url }}">
+    <!-- {% seo %} -->
   </head>
   <body>
     {% include header.html %}
