@@ -2,7 +2,7 @@ locale: "en"
 title: "MALer Lab"
 email: "dasaemj@sogang.ac.kr"
 description: "Music and Art Learning Lab, Sogang University, South Korea"
-# theme: minima
+theme: minima
 name: "MALer Lab"
 domain: MALerLab.github.io
 url: "https://MALerLab.github.io"
