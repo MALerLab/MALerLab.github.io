@@ -1,7 +1,10 @@
 ---
 layout: home
 permalink: /news/
+excerpt: "News of MALer Lab"
 ---
+
+## News
 
 <!-- # Latest News
 

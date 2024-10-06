@@ -1,6 +1,7 @@
 ---
 layout: home
 permalink: /publications/
+excerpt: "Publications of MALer Lab"
 ---
 
 <!-- {% bibliography %} -->

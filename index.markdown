@@ -1,5 +1,6 @@
 ---
 layout: home
+excerpt: "MALer Lab (Music and Art Learning Lab), Sogang University, Seoul, Korea"
 ---
 <div class="image-caption">
     <img src="{{ site.baseurl }}/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
@@ -9,7 +10,7 @@ layout: home
 <br/>
 
 <div class="title-logo">
-    <img class="image-light" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%"/>
+    <img class="image-light" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%" height="auto"/>
     <img class="image-dark" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_WHITE.png" alt="Logo of MALer Lab" width="40%"/>
 </div>
 
@@ -42,4 +43,4 @@ If you're interested in the research conducted in our lab, we highly recommend t
 --- 
 <br/>
 
-We are also hiring full-time **Post Doc** on MIR, starting from Fall 2024, preferably focusing on symbolic music generation in context of music education, or analysis and transcription model for Korean traditional music. The detailed job opening is not yet prepared, but if you are interested, please contact [here](mailto:dasaemj@sogang.ac.kr). 
+We are also hiring full-time ***Post Doc*** on MIR, starting from Fall 2024, preferably focusing on symbolic music generation in context of music education, or analysis and transcription model for Korean traditional music. The detailed job opening is not yet prepared, but if you are interested, please contact [here](mailto:dasaemj@sogang.ac.kr). 

@@ -1,6 +1,7 @@
 ---
 layout: home
 permalink: /members/
+excerpt: "Members of MALer Lab"
 ---
 
 ## > Professor
