@@ -7,6 +7,7 @@ name: "MALer Lab"
 domain: MALerLab.github.io
 url: "https://MALerLab.github.io"
 baseurl: "/MALerLab.github.io"
+atom_path: "atom.xml"
 
 # Build settings
 markdown: kramdown
@@ -54,8 +55,8 @@ seo:
 author:
   name: "MALer Lab"
   url: "https://MALerLab.github.io"
-  # bio: "Music and Art Learning Lab, Sogang University, South Korea"
   github: "MALerLab"
+  email: "dasaemj@sogang.ac.kr"
 
 defaults:
   - scope:
