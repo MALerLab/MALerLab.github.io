@@ -6,7 +6,7 @@ theme: minima
 name: "MALer Lab"
 domain: MALerLab.github.io
 url: "https://MALerLab.github.io"
-baseurl: "/MALerLab.github.io"
+baseurl: ""
 atom_path: "atom.xml"
 
 # Build settings

@@ -56,7 +56,7 @@ excerpt: "News of MALer Lab"
 - Feb-3-2023 / Jiin An, an intern at MALer Lab, has won excellence award in HCI Korea 2023 Creative Award track. The work had been started as a term project of AAT3020, Natural Language Processing course given by Dasaem Jeong.
   * <details>
     <summary>The photo of Creativity Award, HCI Korea 2023</summary>
-    <img src="{{ site.baseurl }}/assets/images/creativity_award.jpg" style="width:40%" align="center">
+    <img src="{{ site.url }}/assets/images/creativity_award.jpg" style="width:40%" align="center">
     </details>
 
 * Jan 2023 / I will serve as an area chair of ICML 2023. 
@@ -65,8 +65,8 @@ excerpt: "News of MALer Lab"
   * <details>
     <summary>The photo of ISMIR 2022</summary>
     <div style="display:flex;flex-direction:row">
-    <img src="{{ site.baseurl }}/assets/images/ismir_members.JPG" style="height:15rem;width:auto" align="center">
-    <img src="{{ site.baseurl }}/assets/images/sinawi.jpg" style="height:15rem;width:auto" align="center">
+    <img src="{{ site.url }}/assets/images/ismir_members.JPG" style="height:15rem;width:auto" align="center">
+    <img src="{{ site.url }}/assets/images/sinawi.jpg" style="height:15rem;width:auto" align="center">
     </div>
     </details>
 

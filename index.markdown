@@ -3,15 +3,15 @@ layout: home
 excerpt: "MALer Lab (Music and Art Learning Lab), Sogang University, Seoul, Korea"
 ---
 <div class="image-caption">
-    <img src="{{ site.baseurl }}/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
+    <img src="{{ site.url }}/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
     <em>MALer Lab in September 2024</em>
 </div>
 
 <br/>
 
 <div class="title-logo">
-    <img class="image-light" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%" height="auto"/>
-    <img class="image-dark" src="{{ site.baseurl }}/assets/images/maler-assets/MALER_LOGO_TEXT_WHITE.png" alt="Logo of MALer Lab" width="40%"/>
+    <img class="image-light" src="{{ site.url }}/assets/images/maler-assets/MALER_LOGO_TEXT_BLACK.png" alt="Logo of MALer Lab" width="40%" height="auto"/>
+    <img class="image-dark" src="{{ site.url }}/assets/images/maler-assets/MALER_LOGO_TEXT_WHITE.png" alt="Logo of MALer Lab" width="40%"/>
 </div>
 
 
