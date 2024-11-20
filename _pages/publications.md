@@ -8,12 +8,28 @@ excerpt: "Publications of MALer Lab"
 
 ## 2024
 * Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation
-  * **Jiwoo Ryu**, Hao-Wen Dong, **Jongmin Jung, and Dasaem Jeong**
-  * *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* (accepted)
+	+ **Jiwoo Ryu**, Hao-Wen Dong, **Jongmin Jung, and Dasaem Jeong**
+	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01180)
 
 * Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding
-  * **Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee, and Dasaem Jeong**
-  * *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* (accepted)
+	+ **Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee, and Dasaem Jeong**
+	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01096)
+ 
+* MusicGen-Chord: Advancing Music Generation through Chord Progressions and Interactive Web-UI
+	+ **Jongmin Jung**, Andreas Jansson, and **Dasaem Jeong**
+	+ *Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)*
+
+* Optical Music Recognition for Jeongganbo Notation of Korean Court Music
+	+ **Dongmin Kim**, Danbinaerin Han, Jose Javier Valero-Mas and **Dasaem Jeong**
+	+ *Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)*
+
+* Towards Computational Analysis of Pansori Singing
+	+ Sangheon Park, Danbinaerin Han, and **Dasaem Jeong**
+	+ *Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)*
+
+* Boundary Regression for Leitmotif Detection in Music Audio
+	+ **Sihun Lee and Dasaem Jeong**
+	+ *Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)*
 
 * K-pop Lyric Translation: Dataset, Analysis, and Neural-Modelling
 	+ Haven Kim, **Jongmin Jung, Dasaem Jeong**, and Juhan Nam
