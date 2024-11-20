@@ -12,11 +12,13 @@ excerpt: "News of MALer Lab"
 - **{{ news.date }}:** {{ news.content }}
 {% endfor %} -->
 
+* Nov-2024 / 🎉Our paper, Six Dragons Fly Again, won the Best Paper Award at ISMIR 2024!!!🎉 Dasaem also won the Best Reviewer Award.
+
 * Sep-2024 / We won NRF grant (Total 2B KRW for three years) for research center, me as the head of the center and PI. The project focuses on AI and VR application for music education, with seven other professors.
 
 * Jun-2024 / Two papers got accepted for ISMIR 2024!
 
-* Mar-9-2024 / I gave a keynote talk at the conference of the Korean Society for Music Perception and Cognition (KSMPC)
+* Mar-9-2024 / Dasaem gave a keynote talk at the conference of the Korean Society for Music Perception and Cognition (KSMPC)
 
 * Jan-22-2024 / Danbinaerin Han received the Outstanding Paper Award for Graduate Students from Sogang University with her ISMIR paper.
 
@@ -26,7 +28,7 @@ excerpt: "News of MALer Lab"
 
 * Nov-4-2023 / Four MALer lab members participated ISMIR 2023 at Milan. We've presented two main track papers, one DLfM, one HCMIR, two LBDs.
 
-* Oct-20-2023 / I was appointed as vice president of the Korean Society for Music Perception and Cognition for 2023-2025
+* Oct-20-2023 / Dasaem was appointed as vice president of the Korean Society for Music Perception and Cognition for 2023-2025
 
 * Sep-2023 / We started project on re-orchestrating Korean traditional court music, funded by National Gugak Center.
 
@@ -36,13 +38,13 @@ excerpt: "News of MALer Lab"
 
 * Jul-20-2023 / MALer Lab participated [MUSIC & AUDIO WORKSHOP 2023](https://snu-marg.notion.site/MUSIC-AUDIO-WORKSHOP-2023-3594ec77804d4c2ebfbfa6fb9d8fecc6) with SNU MARG, KAIST MAC, and KAIST MuBL.
 
-* Jul-12-2023 / I was invited as a reviewer and committee member of thesis defense of Michael Krause, a PhD student from Prof. Meinard Müller's group at International Audio Laboratories Erlangen. After the defense, I gave research talk at AudioLabs and have discussion with Prof. Müller's group. Huge congratulations to Dr. Krause!
+* Jul-12-2023 / Dasaem was invited as a reviewer and committee member of thesis defense of Michael Krause, a PhD student from Prof. Meinard Müller's group at International Audio Laboratories Erlangen. After the defense, I gave research talk at AudioLabs and have discussion with Prof. Müller's group. Huge congratulations to Dr. Krause!
 
 * Jul-11-2023 / One paper got accepted to [CMMR](https://cmmr2023.gttm.jp/). Hyerin Kim, a master's student in MALer Lab participated as the second author collaborating with Eunjin Choi from KAIST MAC Lab.
 
 * June-21-2023 / Two papers got accepted to ISMIR 2023! Danbinaerin Han, a master's student in MALer Lab contributed as the first author, collaborating with Dr. Rafael Caro Repetto from Kunstuniversität Graz. Another paper was done by Pedro Ramoneda and others from UPF MTG, and I've participated as a co-author.
 
-* May-30-2023 / My group got accepted for Individual Research funding from National Research Foundation (NRF) of Korea for topic of Generating Gagok, Traditional Korean Lyric Song. 
+* May-30-2023 / MALer Lab got accepted for Individual Research funding from National Research Foundation (NRF) of Korea for topic of Generating Gagok, Traditional Korean Lyric Song. 
 
 * Mar-2023 / Three papers got accepted for domestic journals.
 
@@ -59,7 +61,7 @@ excerpt: "News of MALer Lab"
     <img src="{{ site.url }}/assets/images/creativity_award.jpg" style="width:40%" align="center">
     </details>
 
-* Jan 2023 / I will serve as an area chair of ICML 2023. 
+* Jan 2023 / Dasaem will serve as an area chair of ICML 2023. 
 
 * Dec 2022 / MALer Lab participated ISMIR 2022. Danbinaerin Han, a Master's student, performed Fantastic AI Sinawi with 해금Haegeum during the Music Program. Total seven people participated from Sogang University, which was the largest group among entire East Asia! 
   * <details>
@@ -73,5 +75,5 @@ excerpt: "News of MALer Lab"
 
 * June-30-2022 / One paper got accepted for ACM Multimedia as a second author. It was joint research with Pedro Ramoneda, Marius Miron, and Xavier Serra from Music Technology Group, Universitat Pompeu Fabra, and Eita Nakamura from Kyoto University. 
 
-* June 2022 / My group got accepted for two fundings: 1) Individual Research funding from National Research Foundation (NRF) of Korea for topic of Expressive Performance Modeling, and 2) Dataset composition for acoustic scene and sound from NIA, with NeuTune and KAIST MAC Lab.
+* June 2022 / We got accepted for two fundings: 1) Individual Research funding from National Research Foundation (NRF) of Korea for topic of Expressive Performance Modeling, and 2) Dataset composition for acoustic scene and sound from NIA, with NeuTune and KAIST MAC Lab.
 
