@@ -8,7 +8,7 @@ excerpt: "Publications of MALer Lab"
 
 ## 2025
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
-	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong••
+	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
  	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
 
 ## 2024
