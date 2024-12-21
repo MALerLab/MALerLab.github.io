@@ -12,6 +12,8 @@ excerpt: "News of MALer Lab"
 - **{{ news.date }}:** {{ news.content }}
 {% endfor %} -->
 
+* Dec-2024 / ViolinDiff got accepted for ICASSP 2025!
+
 * Nov-2024 / 🎉Our paper, Six Dragons Fly Again, won the Best Paper Award at ISMIR 2024!!!🎉 Dasaem also won the Best Reviewer Award.
 
 * Sep-2024 / We won NRF grant (Total 2B KRW for three years) for research center, me as the head of the center and PI. The project focuses on AI and VR application for music education, with seven other professors.
