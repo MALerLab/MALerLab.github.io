@@ -6,7 +6,13 @@ excerpt: "Publications of MALer Lab"
 
 <!-- {% bibliography %} -->
 
+## 2025
+* ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
+	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong••
+ 	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
+
 ## 2024
+
 * Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation
 	+ **Jiwoo Ryu**, Hao-Wen Dong, **Jongmin Jung, and Dasaem Jeong**
 	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01180)
