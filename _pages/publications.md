@@ -19,6 +19,9 @@ excerpt: "Publications of MALer Lab"
   	+ Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra
   	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* (accepted)
 
+* LAV: Audio-Driven Dynamic Visual Generation with Neural Compression and StyleGAN2
+  	+ **Jongmin Jung, and Dasaem Jeong**
+  	+ *30th International Symposium on Electronic/Emerging Art (ISEA), Short Paper* (accepted)
 
 ## 2024
 
