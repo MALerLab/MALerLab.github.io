@@ -100,5 +100,5 @@ excerpt: "Publications of MALer Lab"
 
 ## 2022
 * Automatic Piano Fingering from Partially Annotated Scores Using Autoregressive Neural Networks
-	+ Pedro Ramoneda, Dasaem Jeong, Eita Nakamura, Xavier Serra, and Marius Miron
+	+ Pedro Ramoneda, **Dasaem Jeong**, Eita Nakamura, Xavier Serra, and Marius Miron
 	+ *Proceddings of 30th ACM International Conference on Multimedia (MM'22)*, 2022, [[pdf]](https://repositori.upf.edu/handle/10230/54308)

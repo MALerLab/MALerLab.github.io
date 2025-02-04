@@ -20,22 +20,27 @@ excerpt: "Members of MALer Lab"
 {% endfor %}
 
 <br/>
-<br/>
 
 {% for role in site.data.members %}
-## > {{ role.name }}
-
 {% assign members = site.data.members-info[role.yaml_dir] %}
-
-{% for member in members %}
-{% if member.website %}
-- **{{ member.name }}**
-{% if member.role %} ({{ member.role }}) {% endif %} / [Website]({{ member.website }})
-{% else %}
-- **{{ member.name }}**
-{% if member.role %} ({{ member.role }}) {% endif %}
+{% if members %}
+<section class="member">
+    <h2> > {{ role.name }}</h2>
+    {% for member in members %}
+    <ul>
+        {% if member.website %}
+        <li><strong>{{ member.name }}</strong>
+        {% if member.role %} ({{ member.role }}) {% endif %} / <a href="{{ member.website }}" target="_blank">Website</a></li>
+        {% else %}
+        <li><strong>{{ member.name }}</strong>
+        {% if member.role %} ({{ member.role }}) {% endif %}</li>
+        {% endif %}
+    </ul>
+    {% endfor %}
+</section>
 {% endif %}
+
+
 {% endfor %}
-<br/>
-{% endfor %}
+
 
