@@ -8,8 +8,17 @@ excerpt: "Publications of MALer Lab"
 
 ## 2025
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
-	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
- 	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
+  	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
+  	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
+
+* On the automatic recognition of Jeongganbo music notation: dataset and approach
+  	+ **DongMin Kim, Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas
+  	+ *ACM Journal on Computing and Cultural Heritage (JOCCH)* (accepted)
+
+* Can Audio Reveal Music Performance Difficulty? Insights from the Piano Syllabus Dataset
+  	+ Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra
+  	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* (accepted)
+
 
 ## 2024
 
@@ -44,6 +53,11 @@ excerpt: "Publications of MALer Lab"
 * Enriching Music Descriptions With A Finetuned-LLM And Metadata For Text-to-music Retrieval
 	+ SeungHeon Doh, **Minhee Lee, Dasaem Jeong**, and Juhan Nam
 	+  *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, [[pdf]](https://ieeexplore.ieee.org/document/10446380)
+
+* Towards Efficient and Real-Time Piano Transcription Using Neural Autoregressive Models
+	+ Taegyun Kwon, **Dasaem Jeong**, and Juhan Nam
+	+  *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, [[pdf]](https://ieeexplore.ieee.org/document/10769033)
+
 
 <br/>
 
