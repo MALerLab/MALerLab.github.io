@@ -8,20 +8,20 @@ excerpt: "Publications of MALer Lab"
 
 ## 2025
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
-  	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
-  	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
+	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
+	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
 
 * On the automatic recognition of Jeongganbo music notation: dataset and approach
-  	+ **DongMin Kim, Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas
-  	+ *ACM Journal on Computing and Cultural Heritage (JOCCH)* (accepted)
+	+ **DongMin Kim, Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas
+	+ *ACM Journal on Computing and Cultural Heritage (JOCCH)* (accepted)
 
 * Can Audio Reveal Music Performance Difficulty? Insights from the Piano Syllabus Dataset
-  	+ Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra
-  	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* (accepted)
+	+ Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra
+	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* (accepted)
 
 * LAV: Audio-Driven Dynamic Visual Generation with Neural Compression and StyleGAN2
-  	+ **Jongmin Jung, and Dasaem Jeong**
-  	+ *30th International Symposium on Electronic/Emerging Art (ISEA), Short Paper* (accepted)
+	+ **Jongmin Jung, and Dasaem Jeong**
+	+ *30th International Symposium on Electronic/Emerging Art (ISEA), Short Paper* (accepted)
 
 ## 2024
 
