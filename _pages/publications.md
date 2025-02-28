@@ -32,6 +32,7 @@ excerpt: "Publications of MALer Lab"
 * Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding
 	+ **Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee, and Dasaem Jeong**
 	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01096)
+	+ 🎉 Best Paper Award (Top 3 among 123 papers) 🎉
  
 * MusicGen-Chord: Advancing Music Generation through Chord Progressions and Interactive Web-UI
 	+ **Jongmin Jung**, Andreas Jansson, and **Dasaem Jeong**
