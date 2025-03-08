@@ -20,13 +20,12 @@ excerpt: "MALer Lab (Music and Art Learning Lab), Sogang University, Seoul, Kore
 ---
 <br/>
 
-We are currently seeking highly motivated Master's/Ph.D. students for the academic year of 2025 who are interested in Deep Learning based Music Information Retrieval (MIR). The topics we are currently interested in are as follows:
+We are currently seeking highly motivated Master's/Ph.D. students who are interested in Deep Learning based Music Information Retrieval (MIR) especially for topics below:
 - MIR for Music Education
-- MIR for Korean Traditional Music (Analysis)
-- MIR for Western Classical Music (Transcription, OMR, Alignment, etc)
-- Symbolic Music Generation
-- MIDI-to-Audio Synthesis
+- MIR for Korean Traditional Music (analysis and transcription)
+- MIR for Western Classical Music (transcription, OMR, alignment, etc)
 - Computational Musicology
+- Symbolic Music Generation
 
 <br/>
 
@@ -40,7 +39,3 @@ If you're interested in the research conducted in our lab, we highly recommend t
 
 <!--For any questions or further information, please contact [here](mailto:dasaemj@sogang.ac.kr)-->
 
---- 
-<br/>
-
-We are also hiring full-time ***Post Doc*** on MIR, starting from Fall 2024, preferably focusing on symbolic music generation in context of music education, or analysis and transcription model for Korean traditional music. The detailed job opening is not yet prepared, but if you are interested, please contact [here](mailto:dasaemj@sogang.ac.kr). 
