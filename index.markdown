@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "MALer Lab (Music and Art Learning Lab), Sogang University, Seoul, Korea"
+excerpt: "MALer Lab (Music and Arts Learning Lab), Sogang University, Seoul, Korea"
 ---
 <div class="image-caption">
     <img src="{{ site.url }}/assets/images/maler_240925.jpg" alt="Group photo of MALer Lab" width="60%"/>
