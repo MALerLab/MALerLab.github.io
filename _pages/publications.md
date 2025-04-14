@@ -9,15 +9,15 @@ excerpt: "Publications of MALer Lab"
 ## 2025
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
 	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
-	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* (accepted) [[arxiv]](https://arxiv.org/abs/2409.12477)
+	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* [[paper]](https://ieeexplore.ieee.org/document/10890613) [[arxiv]](https://arxiv.org/abs/2409.12477) [[code]](https://github.com/daewoung/ViolinDiff)
 
 * On the automatic recognition of Jeongganbo music notation: dataset and approach
 	+ **DongMin Kim, Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas
-	+ *ACM Journal on Computing and Cultural Heritage (JOCCH)* (accepted)
+	+ *ACM Journal on Computing and Cultural Heritage (JOCCH)* [[paper]](https://dl.acm.org/doi/10.1145/3715159) [[code]](https://github.com/MALerLab/jeongganbo-omr)
 
 * Can Audio Reveal Music Performance Difficulty? Insights from the Piano Syllabus Dataset
 	+ Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra
-	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* (accepted)
+	+ *IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)* [[paper]](https://ieeexplore.ieee.org/document/10878288)
 
 * LAV: Audio-Driven Dynamic Visual Generation with Neural Compression and StyleGAN2
 	+ **Jongmin Jung, and Dasaem Jeong**
@@ -27,11 +27,11 @@ excerpt: "Publications of MALer Lab"
 
 * Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation
 	+ **Jiwoo Ryu**, Hao-Wen Dong, **Jongmin Jung, and Dasaem Jeong**
-	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01180)
+	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01180) [[code]](https://github.com/JudeJiwoo/nmt)
 
 * Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding
 	+ **Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee, and Dasaem Jeong**
-	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01096)
+	+ *Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://arxiv.org/abs/2408.01096) [[code]](https://github.com/MALerLab/SejongMusic)
 	+ 🎉 Best Paper Award (Top 3 among 123 papers) 🎉
  
 * MusicGen-Chord: Advancing Music Generation through Chord Progressions and Interactive Web-UI
@@ -56,7 +56,7 @@ excerpt: "Publications of MALer Lab"
 
 * Enriching Music Descriptions With A Finetuned-LLM And Metadata For Text-to-music Retrieval
 	+ SeungHeon Doh, **Minhee Lee, Dasaem Jeong**, and Juhan Nam
-	+  *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, [[pdf]](https://ieeexplore.ieee.org/document/10446380)
+	+  *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, [[pdf]](https://ieeexplore.ieee.org/document/10446380) [[code]](https://github.com/seungheondoh/music-text-representation-pp)
 
 * Towards Efficient and Real-Time Piano Transcription Using Neural Autoregressive Models
 	+ Taegyun Kwon, **Dasaem Jeong**, and Juhan Nam
@@ -72,15 +72,15 @@ excerpt: "Publications of MALer Lab"
 
 * Predicting Performance Difficulty from Piano Sheet Music Images
 	+ Pedro Ramoneda, Jose J. Valero-Mas, **Dasaem Jeong**, and Xavier Serra
-	+ *Proceedings of 24th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://repositori.upf.edu/bitstream/handle/10230/58122/Ramoneda_ism_pred.pdf)
+	+ *Proceedings of 24th International Society for Music Information Retrieval Conference (ISMIR)* [[pdf]](https://repositori.upf.edu/bitstream/handle/10230/58122/Ramoneda_ism_pred.pdf) [[code]](https://github.com/PRamoneda/PDF-difficulty)
 
 * Combining Piano Performance Dimensions for Score Difficulty Classification
 	+ Pedro Ramoneda, **Dasaem Jeong**, Vsevolod Eremenko, Nazif Can Tamer, Marius Miron, Xavier Serra
-	+ *Expert Systems with Applications* [[html]](https://doi.org/10.1016/j.eswa.2023.121776)
+	+ *Expert Systems with Applications* [[html]](https://doi.org/10.1016/j.eswa.2023.121776) [[code]](https://github.com/PRamoneda/difficulty-prediction-CIPI)
 
 * Aligning Incomplete Lyrics of Korean Folk Song Dataset using Whisper
 	+ **Danbinaerin Han, Daewoong Kim, and Dasaem Jeong**
-	+ *Proceedings of 10th International Conference on Digital Libraries for Musicology (DLfM)*, [[html]](https://dl.acm.org/doi/10.1145/3625135.3625154)
+	+ *Proceedings of 10th International Conference on Digital Libraries for Musicology (DLfM)*, [[html]](https://dl.acm.org/doi/10.1145/3625135.3625154) [[code]](https://github.com/MalerLab/RefWhisper)
 
 * Annotator Subjectivity in the MusicCaps Dataset
 	+ **Minhee Lee**, Seungheon Doh and **Dasaem Jeong**
@@ -100,7 +100,7 @@ excerpt: "Publications of MALer Lab"
 
 * VirtuosoTune: Hierarchical Melody Language Model
 	+ **Dasaem Jeong**
-	+ *IEIE Transactions on Smart Processing & Computing*, Vol. 12, No. 4, pp. 329-333, 2023. [[pdf]](http://ieiespc.org/AURIC_OPEN_temp/RDOC/ieie03/ieietspc_202308_006.pdf)
+	+ *IEIE Transactions on Smart Processing & Computing*, Vol. 12, No. 4, pp. 329-333, 2023. [[pdf]](http://ieiespc.org/AURIC_OPEN_temp/RDOC/ieie03/ieietspc_202308_006.pdf), [[code]](https://github.com/jdasam/VirtuosoTune)
 
 * Reducing Latency of Neural Automatic Piano Transcription Models
 	+ **Dasol Lee** and **Dasaem Jeong**
