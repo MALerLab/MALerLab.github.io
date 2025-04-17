@@ -1,7 +1,7 @@
 locale: "en"
 title: "MALer Lab"
 email: "dasaemj@sogang.ac.kr"
-description: "Music and Art Learning Lab, Sogang University, South Korea"
+description: "Music & Arts Learning Lab, Sogang University, South Korea"
 theme: minima
 name: "MALer Lab"
 domain: MALerLab.github.io
@@ -45,7 +45,7 @@ jekyll-archives:
 
 seo:
   title: "MALer Lab"
-  description: "Music and Art Learning Lab, Sogang University, South Korea"
+  description: "Music & Arts Learning Lab, Sogang University, South Korea"
   image: "https://MALerLab.github.io/assets/images/maler_og.png"
   url: "https://MALerLab.github.io"
   twitter:
