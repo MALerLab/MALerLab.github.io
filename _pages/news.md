@@ -11,6 +11,11 @@ excerpt: "News of MALer Lab"
 {% for news in site.data.news %}
 - **{{ news.date }}:** {{ news.content }}
 {% endfor %} -->
+
+* June-2025 / Deduplication of Lakh MIDI dataset got accepted for ISMIR 2025!
+
+* March-2025 / Hannah and Seong-Uk joined as Master's student!
+
 * Feb-2025 / We won the Outstanding Young Scientist Grant by the National Research Foundation (NRF), securing 445 million KRW in funding over three years. Our project will develop automatic tokenization techniques for various folk music that cannot be fully captured by Western staff notation.".
 
 * Dec-2024 / ViolinDiff got accepted for ICASSP 2025!
