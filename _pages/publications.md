@@ -7,6 +7,11 @@ excerpt: "Publications of MALer Lab"
 <!-- {% bibliography %} -->
 
 ## 2025
+* On the de-duplication of the Lakh MIDI dataset
+	+ Eunjin Choi, **Hyerin Kim, Jiwoo Ryu**, Juhan Nam, and **Dasaem JEong**
+ 	+ *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR)* (Accepted) 
+
+
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
 	+ **Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**
 	+ *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* [[paper]](https://ieeexplore.ieee.org/document/10890613) [[arxiv]](https://arxiv.org/abs/2409.12477) [[code]](https://github.com/daewoung/ViolinDiff)
