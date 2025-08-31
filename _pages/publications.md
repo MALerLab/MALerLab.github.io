@@ -8,8 +8,8 @@ excerpt: "Publications of MALer Lab"
 
 ## 2025
 * On the de-duplication of the Lakh MIDI dataset
-	+ Eunjin Choi, **Hyerin Kim, Jiwoo Ryu**, Juhan Nam, and **Dasaem JEong**
- 	+ *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR)* (Accepted) 
+	+ Eunjin Choi, **Hyerin Kim, Jiwoo Ryu**, Juhan Nam, and **Dasaem Jeong**
+	+ *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR)* (Accepted) 
 
 
 * ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning
