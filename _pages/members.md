@@ -10,7 +10,7 @@ excerpt: "Members of MALer Lab"
     <div class="card member-card member-card-prof">
         {% if prof.image %}
         <div class="member-image">
-            <img src="{{ site.url }}/assets/images/{{ prof.image }}" alt="{{ prof.name }}">
+            <img src="{{ '/assets/images/' | relative_url }}{{ prof.image }}" alt="{{ prof.name }}">
         </div>
         {% endif %}
         <div class="member-info">
@@ -85,7 +85,7 @@ excerpt: "Members of MALer Lab"
         </div>
         {% if member.image %}
         <div class="member-image">
-            <img src="{{ site.url }}/assets/images/{{ member.image }}" alt="{{ member.name }}">
+            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
         </div>
         {% endif %}
     </div>
@@ -138,7 +138,7 @@ excerpt: "Members of MALer Lab"
         </div>
         {% if member.image %}
         <div class="member-image">
-            <img src="{{ site.url }}/assets/images/{{ member.image }}" alt="{{ member.name }}">
+            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
         </div>
         {% endif %}
     </div>
@@ -192,7 +192,7 @@ excerpt: "Members of MALer Lab"
         </div>
         {% if member.image %}
         <div class="member-image">
-            <img src="{{ site.url }}/assets/images/{{ member.image }}" alt="{{ member.name }}">
+            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
         </div>
         {% endif %}
     </div>
@@ -246,7 +246,7 @@ excerpt: "Members of MALer Lab"
         </div>
         {% if member.image %}
         <div class="member-image">
-            <img src="{{ site.url }}/assets/images/{{ member.image }}" alt="{{ member.name }}">
+            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
         </div>
         {% endif %}
     </div>

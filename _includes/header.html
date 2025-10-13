@@ -1,27 +1,27 @@
 <header>
   <nav class="nav-bar">
     <div class="logo">
-      <a href="{{ site.url }}/"
+      <a href="{{ '/' | relative_url }}"
         ><img
           class="image-light"
-          src="{{ site.url }}/assets/images/maler-assets/MALER_NEW_LOGO_BLACK.png"
+          src="{{ '/assets/images/maler-assets/MALER_NEW_LOGO_BLACK.png' | relative_url }}"
           alt="logo"
           height="30"
         />
         <img
           class="image-dark"
-          src="{{ site.url }}/assets/images/maler-assets/MALER_NEW_LOGO_WHITE.png"
+          src="{{ '/assets/images/maler-assets/MALER_NEW_LOGO_WHITE.png' | relative_url }}"
           alt="logo"
           height="30"
         />
       </a>
     </div>
     <ul class="nav-menu">
-      <li class="maler-menu"><a href="{{ site.url }}/">MALer Lab</a></li>
-      <!-- <li><a href="{{ site.url }}/intro/">Intro</a></li> -->
-      <li><a href="{{ site.url }}/members/">Members</a></li>
-      <li><a href="{{ site.url }}/publications/">Publications</a></li>
-      <li><a href="{{ site.url }}/news/">News</a></li>
+      <li class="maler-menu"><a href="{{ '/' | relative_url }}">MALer Lab</a></li>
+      <!-- <li><a href="{{ '/intro/' | relative_url }}">Intro</a></li> -->
+      <li><a href="{{ '/members/' | relative_url }}">Members</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+      <li><a href="{{ '/news/' | relative_url }}">News</a></li>
       <li>
         <button id="theme-toggle" class="theme-toggle" />
       </li>

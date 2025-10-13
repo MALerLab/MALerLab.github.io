@@ -32,27 +32,27 @@
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/assets/images/maler-assets/favicon.png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
     />
     <link
       rel="shortcut icon"
       type="image/png"
-      href="{{ site.url }}/assets/images/maler-assets/favicon.png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ site.url }}/assets/images/maler-assets/favicon.png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
     />
     <link
       rel="apple-touch-icon-precomposed"
-      href="{{ site.url }}/assets/images/maler-assets/favicon.png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
     />
-    <link rel="stylesheet" href="{{ site.url }}/assets/main.css" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     <link
       rel="alternate"
       type="application/rss+xml"
-      href="{{ site.url }}/feed.xml"
+      href="{{ '/feed.xml' | relative_url }}"
     />
 
     {% seo title=false %}
@@ -65,6 +65,6 @@
     </div>
 
     {% include footer.html %}
-    <script src="{{ site.url }}/assets/js/theme.js"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   </body>
 </html>
