@@ -1,13 +1,38 @@
-- name: 김동민 DongMin Kim
-  role: 인공지능학과 DHE 트랙
-  website: https://halsoo.github.io/
-- name: 정종민 Jongmin Jung
-  role: 인공지능학과 DHE 트랙
-  website: https://sakem.in/
-- name: 이시훈 Sihun Lee
-  role: 인공지능학과 DHE 트랙
-- name: 박한나 Hannah Park
-  role: 인공지능학과 DHE 트랙
-  website: https://www.crescent.studio/
-- name: 주성욱
-  role: 인공지능학과 DHE 트랙
+- name_en: DongMin Kim
+  name_ko: 김동민
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  website: 
+    Homepage: https://halsoo.github.io/
+    LinkedIn: https://www.linkedin.com/in/dongmin-kim-mirguy/
+  image: members/dongmin_kim_profile.png
+  interests:
+    - Optical Music Recognition
+    - Training Data Synthesis
+- name_en: Sihun Lee
+  name_ko: 이시훈
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  website:
+    LinkedIn: https://www.linkedin.com/in/sihun-lee-44748b250/
+  image: members/sihun_lee_profile.jpg
+  interests:
+    - Technologies for Music Creation
+    - Automatic Music Transcription & Optical Music Recognition
+- name_en: Hannah Park
+  name_ko: 박한나
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  website:
+    Portfolio: https://www.crescent.studio/
+    LinkedIn: https://www.linkedin.com/in/crescent-stdio/
+  image: members/hannah_park_profile.jpg
+  interests:
+    - Interactive Interface for AI
+    - Human-AI Collaboration Systems
+- name_en: SeongUk Ju
+  name_ko: 주성욱
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  website: 
+    LinkedIn: https://www.linkedin.com/in/seonguk-ju-024502304/
+  image: members/seonguk_ju_profile.jpg
+  interests:
+    - Korean Traditional Music
+    - Controllable Music Generation
