@@ -6,13 +6,23 @@
 
 Student's role is separated by department. (Optional)
 ```yml
-- name: 말러 Maler
-  role: Department of Art & Technology
-  website: https://malerlab.github.io
+- name_en: Maler
+  name_ko: 말러
+  role: MALer Lab
+  website:
+    Blog: https://malerlab.github.io
+  image: members/maler_profile.jpg
+  interests:
+    - Symbolic Music Generation
+    - Music Information Retrieval
 ```
-This will be displayed as:
+This will be displayed as: [card] [image]
 ```
-말러 Maler (Department of Art & Technology) / Website
+Maler 말러 | [Blog]
+MALer Lab
+
+FIELDS OF RESEARCH
+(Symbolic Music Generation) (Music Information Retrieval)
 ```
 
 ### 1.2. Update Publications

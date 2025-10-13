@@ -1,8 +1,33 @@
-- name: 오명석 Myung Seok Oh
-- name: 김혜린 Hyerin Kim
-- name: 한단비내린 Danbinaerin Han
-  website: https://danbinaerin.notion.site/Danbinaerin-Han-Researcher-Korean-music-Specialist-eaa8c0e0df6049cba6da08fdf6bcc6af?pvs=4
-- name: 이다솔 Dasol Lee
-- name: 류지우 Jiwoo Ryu
-- name: 김대웅 Daewoong Kim
-  website: https://sites.google.com/view/daewoong
+- name_en: Jongmin Jung
+  name_ko: 정종민
+  role: Graduate School of AI -> Neutune
+  image: members/jongmin_jung_profile.png
+  website: 
+    LinkedIn: https://www.linkedin.com/in/sake-min/
+  interests:
+    - Music Modality Translation
+    - Controllable Music Generation
+    - Audio-visualization
+- name_en: Daewoong Kim
+  name_ko: 김대웅
+  role: Graduate School of AI -> DEEPLY
+  website:
+    Homepage: https://sites.google.com/view/daewoong
+- name_en: Jiwoo Ryu
+  name_ko: 류지우
+  role: Graduate School of AI
+- name_en: Dasol Lee
+  name_ko: 이다솔
+  role: Graduate School of Art & Technology
+- name_en: Danbinaerin Han
+  name_ko: 한단비내린
+  role: Graduate School of Art & Technology -> Ph.D Student at Music and Audio Computing Lab, KAIST
+  website:
+    Homepage: https://danbinaerin.notion.site/Danbinaerin-Han-Researcher-Korean-music-Specialist-eaa8c0e0df6049cba6da08fdf6bcc6af?pvs=4
+- name_en: Hyerin Kim
+  name_ko: 김혜린
+  role: Graduate School of Art & Technology
+- name_en: Myung Seok Oh
+  name_ko: 오명석
+  role: Graduate School of Art & Technology -> Krafton AI
+
