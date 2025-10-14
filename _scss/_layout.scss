@@ -79,6 +79,11 @@ img + em {
     display: flex;
     flex-direction: column;
     min-width: 0;
+    position: relative;
+
+    &:has(.member-image) {
+      min-height: 120px;
+    }
 
     .member-header {
       display: flex;
@@ -86,6 +91,24 @@ img + em {
       gap: 0.75rem;
       margin-bottom: 0.25rem;
       flex-wrap: wrap;
+    }
+
+    .member-image {
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      flex-shrink: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
 
     h3 {
@@ -226,59 +249,85 @@ img + em {
     }
   }
 
-  .member-image {
-    flex-shrink: 0;
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    order: 2;
-    
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-}
-
-// Professor card with image on the left
-.member-card-prof {
-  .member-image {
-    order: 0;
-  }
-  
-  .member-info {
-    order: 1;
-  }
 }
 
 // Responsive
 @media (max-width: 768px) {
   .member-card {
     flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-
-    .member-image {
-      order: 0;
-      margin-bottom: 0;
-    }
+    text-align: left;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
 
     .member-info {
-      align-items: center;
+      order: 0 !important;
+      align-items: flex-start;
+
+      .member-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0rem;
+        width: 100%;
+        margin-bottom: 0rem;
+      }
+
+      .separator {
+        display: none;
+      }
+
+      .member-links {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .member-role {
+        order: 1;
+        margin-bottom: 0.75rem;
+      }
+
+      .member-image {
+        position: static !important;
+        width: 100px;
+        height: 100px;
+        align-self: center;
+        margin: 0.75rem 0;
+        order: 2;
+      }
+
+      .member-image-prof {
+        order: 0;
+        margin: 0.75rem auto;
+      }
 
       .member-interests {
+        order: 3;
+        
+        strong {
+          margin-top: 0.75rem;
+        }
+        
         ul {
-          justify-content: center;
+          justify-content: flex-start;
+          gap: 0.3rem;
+          row-gap: 0.25rem;
         }
       }
 
       .btn {
-        align-self: center;
+        align-self: flex-start;
       }
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .member-card .member-info h3 {
+    .name-en { font-size: 1.125rem; }
+    .name-ko { font-size: 0.95rem; }
   }
 }
 

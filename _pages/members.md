@@ -8,11 +8,6 @@ excerpt: "Members of MALer Lab"
 <div class="grid member-cards">
 {% for prof in site.data.members-info.members-prof %}
     <div class="card member-card member-card-prof">
-        {% if prof.image %}
-        <div class="member-image">
-            <img src="{{ '/assets/images/' | relative_url }}{{ prof.image }}" alt="{{ prof.name }}">
-        </div>
-        {% endif %}
         <div class="member-info">
             <div class="member-header">
                 <h3>
@@ -24,6 +19,11 @@ excerpt: "Members of MALer Lab"
                     {% endif %}
                 </h3>
             </div>
+            {% if prof.image %}
+            <div class="member-image member-image-prof">
+                <img loading="lazy" src="{{ '/assets/images/' | relative_url }}{{ prof.image }}" alt="{{ prof.name }}">
+            </div>
+            {% endif %}
             {% if prof.descriptions %}
             <div class="member-descriptions">
                 <ul>
@@ -34,7 +34,6 @@ excerpt: "Members of MALer Lab"
             </div>
             {% endif %}
         </div>
-
     </div>
 {% endfor %}
 </div>
@@ -72,6 +71,11 @@ excerpt: "Members of MALer Lab"
             {% if member.role %}
             <p class="member-role">{{ member.role }}</p>
             {% endif %}
+            {% if member.image %}
+            <div class="member-image">
+                <img loading="lazy" src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
+            </div>
+            {% endif %}
             {% if member.interests %}
             <div class="member-interests">
                 <strong>Fields of Research</strong>
@@ -83,11 +87,6 @@ excerpt: "Members of MALer Lab"
             </div>
             {% endif %}
         </div>
-        {% if member.image %}
-        <div class="member-image">
-            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
-        </div>
-        {% endif %}
     </div>
 {% endfor %}
 </div>
@@ -125,6 +124,11 @@ excerpt: "Members of MALer Lab"
             {% if member.role %}
             <p class="member-role">{{ member.role }}</p>
             {% endif %}
+            {% if member.image %}
+            <div class="member-image">
+                <img loading="lazy" src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
+            </div>
+            {% endif %}
             {% if member.interests %}
             <div class="member-interests">
                 <strong>Fields of Research</strong>
@@ -136,11 +140,6 @@ excerpt: "Members of MALer Lab"
             </div>
             {% endif %}
         </div>
-        {% if member.image %}
-        <div class="member-image">
-            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
-        </div>
-        {% endif %}
     </div>
 {% endfor %}
 </div>
@@ -179,6 +178,11 @@ excerpt: "Members of MALer Lab"
             {% if member.role %}
             <p class="member-role">{{ member.role }}</p>
             {% endif %}
+            {% if member.image %}
+            <div class="member-image">
+                <img loading="lazy" src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
+            </div>
+            {% endif %}
             {% if member.interests %}
             <div class="member-interests">
                 <strong>Fields of Research</strong>
@@ -190,11 +194,6 @@ excerpt: "Members of MALer Lab"
             </div>
             {% endif %}
         </div>
-        {% if member.image %}
-        <div class="member-image">
-            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
-        </div>
-        {% endif %}
     </div>
 {% endfor %}
 </div>
@@ -233,6 +232,11 @@ excerpt: "Members of MALer Lab"
             {% if member.role %}
             <p class="member-role">{{ member.role }}</p>
             {% endif %}
+            {% if member.image %}
+            <div class="member-image">
+                <img loading="lazy" src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
+            </div>
+            {% endif %}
             {% if member.interests %}
             <div class="member-interests">
                 <strong>Fields of Research</strong>
@@ -244,11 +248,6 @@ excerpt: "Members of MALer Lab"
             </div>
             {% endif %}
         </div>
-        {% if member.image %}
-        <div class="member-image">
-            <img src="{{ '/assets/images/' | relative_url }}{{ member.image }}" alt="{{ member.name }}">
-        </div>
-        {% endif %}
     </div>
 {% endfor %}
 </div>
