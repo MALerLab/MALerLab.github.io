@@ -251,6 +251,18 @@ img + em {
 
 }
 
+// Professor card - image on the left (desktop only)
+.member-card-prof {
+  .member-info {
+    padding-left: 140px;
+    
+    .member-image {
+      right: auto;
+      left: 0;
+    }
+  }
+}
+
 // Responsive
 @media (max-width: 768px) {
   .member-card {
@@ -262,6 +274,7 @@ img + em {
     .member-info {
       order: 0 !important;
       align-items: flex-start;
+      padding-left: 0 !important;
 
       .member-header {
         flex-direction: column;
