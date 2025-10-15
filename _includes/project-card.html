@@ -1,0 +1,23 @@
+<article class="project-card">
+  <a class="project-card__link" href="{{ include.project.url | relative_url }}" aria-label="{{ include.project.title }} details">
+    {% if include.project.thumbnail %}
+      <img class="project-card__thumb" src="{{ include.project.thumbnail | relative_url }}" alt="{{ include.project.title }} thumbnail" loading="lazy" />
+    {% endif %}
+    <div class="project-card__body">
+      <div class="project-card__meta">
+        {% if include.project.tags %}
+          <ul class="tags">
+            {% for tag in include.project.tags %}
+              <li class="tag">{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if include.project.featured %}<span class="badge badge--featured">⭐ Featured</span>{% endif %}
+      </div>
+      <h3 class="project-card__title">{{ include.project.title }}</h3>
+      {% if include.project.summary %}<p class="project-card__summary">{{ include.project.summary }}</p>{% endif %}
+    </div>
+  </a>
+</article>
+
+

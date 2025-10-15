@@ -9,9 +9,9 @@
 }
 
 body {
-  color: var(--primary-color); /* 텍스트 색상 */
+  color: var(--primary-color); /* Text color */
   font-size: calc(0.9rem + 0.25vw);
-  background-color: var(--secondary-color); /* 배경 색상 */
+  background-color: var(--secondary-color); /* Background color */
   line-height: 1.6;
   overflow-x: hidden;
   padding: 0 2rem;
@@ -22,22 +22,22 @@ h1,
 h2,
 h3 {
   font-weight: 700;
-  color: var(--primary-color); /* 제목 텍스트 색상 */
+  color: var(--primary-color); /* Heading text color */
 }
 
 p {
-  color: var(--text-color); /* 본문 텍스트 색상 */
+  color: var(--text-color); /* Body text color */
 }
 
 a {
-  color: var(--accent-color); /* 링크 색상 */
+  color: var(--accent-color); /* Link color */
   text-decoration: none;
   transition: color $transition-speed;
 }
 
 a:hover {
-  /* hover 상태에서 색상을 지정 (darken을 대신할 직접 색상 사용) */
-  color: #005bb5; /* 액센트 색상을 어둡게 처리 */
+  /* Hover state color (direct color instead of darken function) */
+  color: #005bb5; /* Darker accent color */
 }
 
 ul,
@@ -48,7 +48,7 @@ ol {
 ul li,
 ol li {
   margin-bottom: 0.75rem;
-  color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+  color: var(--text-color); /* List item text color */
 }
 
 .container {
@@ -69,7 +69,7 @@ ol li {
     color: var(--primary-color);
   }
   p {
-    color: var(--text-color); /* 본문 텍스트 색상 */
+    color: var(--text-color); /* Body text color */
     margin-bottom: 0rem;
   }
   hr {
@@ -78,7 +78,7 @@ ol li {
     border-top: 1px solid var(--shadow-color);
   }
   li {
-    color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+    color: var(--text-color); /* List item text color */
     margin-bottom: 0.5rem;
   }
   li > details {

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-30JXE75HT9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-30JXE75HT9");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://MALerLab.github.io/assets/images/maler-assets/maler_new_og.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://MALerLab.github.io/assets/images/maler-assets/maler_new_og.png"
+    />
+    <meta property="description" content="{{site.description}}" />
+    <title>{% if page.title %}{{page.title}} - {% endif %}{{site.title}}</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="{{ '/assets/images/maler-assets/favicon.png' | relative_url }}"
+    />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+
+    {% seo title=false %}
+  </head>
+  <body>
+    {% include header.html %}
+
+    <div class="container">
+      <div class="page-content">
+        <header class="project-hero" style="display: flex; flex-direction: column; margin-bottom: 0rem;">
+          <div class="project-hero__meta" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem;">
+            {% if page.tags %}
+            {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+            {% endif %}
+            {% if page.featured %}<span class="badge badge--featured">⭐ Featured</span>{% endif %}
+          </div>
+          <h1 class="project-title" style="margin: 0 0 0rem; color: var(--primary-color); display: block; width: 100%;">{{ page.title }}</h1>
+          {% if page.summary %}
+          <p class="project-subtitle" style="margin: 0; color: var(--text-color); opacity: 0.85; line-height: 1.6; display: block; width: 100%; font-style: italic;">{{ page.summary }}</p>
+          {% endif %}
+        </header>
+        <hr style="border: 0; border-top: 1px solid #dddddd; margin: 0rem 0rem 1rem 0rem;" />
+
+        <article class="project-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  </body>
+  </html>
+
+

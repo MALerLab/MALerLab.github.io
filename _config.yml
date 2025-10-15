@@ -19,6 +19,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  projects:
+    output: true
+    permalink: /projects/:slug/
 
 plugins:
   - jekyll-scholar
@@ -64,3 +67,8 @@ defaults:
       type: ""
     values:
       image: "/assets/images/maler-assets/maler_og.png"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
