@@ -2,7 +2,8 @@
   name_ko: 정종민
   role: Graduate School of AI -> Neutune
   image: members/jongmin_jung_profile.png
-  website: 
+  website:
+    Homepage: https://sakem.in/
     LinkedIn: https://www.linkedin.com/in/sake-min/
   interests:
     - Music Modality Translation
@@ -10,7 +11,7 @@
     - Audio-visualization
 - name_en: Daewoong Kim
   name_ko: 김대웅
-  role: Graduate School of AI -> DEEPLY
+  role: Graduate School of AI
   website:
     Homepage: https://sites.google.com/view/daewoong
 - name_en: Jiwoo Ryu
@@ -30,4 +31,3 @@
 - name_en: Myung Seok Oh
   name_ko: 오명석
   role: Graduate School of Art & Technology -> Krafton AI
-
