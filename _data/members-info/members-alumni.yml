@@ -1,3 +1,13 @@
+- name_en: DongMin Kim
+  name_ko: 김동민
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  website:
+    Homepage: https://halsoo.github.io/
+    LinkedIn: https://www.linkedin.com/in/dongmin-kim-mirguy/
+  image: members/dongmin_kim_profile.png
+  interests:
+    - Optical Music Recognition
+    - Training Data Synthesis
 - name_en: Jongmin Jung
   name_ko: 정종민
   role: Graduate School of AI -> Neutune

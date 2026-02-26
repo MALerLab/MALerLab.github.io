@@ -1,7 +1,15 @@
 - name_en: Gary Ri
   name_ko: 이지원
   role: Graduate School of Metaverse (Part-time Ph.D Student)
-  website: 
+  website:
     LinkedIn: https://www.linkedin.com/in/gary-ri-82547316a/
   image: members/gary_ri_profile.png
-
+- name_en: Sihun Lee
+  name_ko: 이시훈
+  role: Graduate School of AI
+  website:
+    LinkedIn: https://www.linkedin.com/in/sihun-lee-44748b250/
+  image: members/sihun_lee_profile.jpg
+  interests:
+    - Technologies for Music Creation
+    - Automatic Music Transcription & Optical Music Recognition
