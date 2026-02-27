@@ -103,7 +103,7 @@ img + em {
       position: absolute;
       right: 0;
       top: 0;
-      
+
       img {
         width: 100%;
         height: 100%;
@@ -201,8 +201,8 @@ img + em {
 
         li {
           font-size: 0.8rem;
-          color: #B60004;
-          background-color: rgba(182, 0, 4, 0.1);
+          color: $red;
+          background-color: $red-bg;
           padding: 0.3rem 0.75rem;
           border-radius: 12px;
           line-height: 1.3;
@@ -210,7 +210,7 @@ img + em {
           transition: all 0.2s ease;
 
           &:hover {
-            background-color: rgba(182, 0, 4, 0.18);
+            background-color: $red-bg-hover;
           }
         }
       }
@@ -248,14 +248,13 @@ img + em {
       }
     }
   }
-
 }
 
 // Professor card - image on the left (desktop only)
 .member-card-prof {
   .member-info {
     padding-left: 140px;
-    
+
     .member-image {
       right: auto;
       left: 0;
@@ -318,11 +317,11 @@ img + em {
 
       .member-interests {
         order: 3;
-        
+
         strong {
           margin-top: 0.75rem;
         }
-        
+
         ul {
           justify-content: flex-start;
           gap: 0.3rem;
@@ -339,8 +338,12 @@ img + em {
 
 @media (max-width: 480px) {
   .member-card .member-info h3 {
-    .name-en { font-size: 1.125rem; }
-    .name-ko { font-size: 0.95rem; }
+    .name-en {
+      font-size: 1.125rem;
+    }
+    .name-ko {
+      font-size: 0.95rem;
+    }
   }
 }
 
@@ -364,7 +367,7 @@ img + em {
     .member-image {
       border-color: rgba(255, 255, 255, 0.08);
     }
-    
+
     .member-links .btn-link {
       color: var(--text-color);
       opacity: 0.7;
@@ -373,13 +376,13 @@ img + em {
         opacity: 1;
       }
     }
-    
+
     .member-interests ul li {
-      color: #FF4D4D;
-      background-color: rgba(182, 0, 4, 0.15);
+      color: $red-dark;
+      background-color: $red-bg-dark;
 
       &:hover {
-        background-color: rgba(182, 0, 4, 0.25);
+        background-color: $red-bg-dark-hover;
       }
     }
 
@@ -391,5 +394,14 @@ img + em {
         opacity: 0.4;
       }
     }
+  }
+
+  .news-date {
+    color: $red-dark;
+    background-color: $red-bg-dark;
+  }
+
+  .news-list > li::marker {
+    color: $red-bullet;
   }
 }
