@@ -9,6 +9,9 @@ url: "https://MALerLab.github.io"
 baseurl: ""
 atom_path: "atom.xml"
 
+include:
+  - _bibliography
+
 # Build settings
 markdown: kramdown
 sass:

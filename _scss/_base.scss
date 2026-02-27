@@ -136,6 +136,48 @@ a:hover {
   text-decoration: underline;
 }
 
+a[href^="#bib:"] {
+  position: relative;
+  cursor: pointer;
+}
+
+.bib-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.publications h2 {
+  margin-top: 3rem;
+}
+
+.publications > ul > li {
+  font-weight: 600;
+  font-size: 1.05em;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.publications > ul > li > ul > li {
+  font-weight: 400;
+  font-size: 0.88em;
+  margin-bottom: 0.2rem;
+}
+
+.publications strong {
+  font-weight: 600;
+}
+
 section.member {
   margin-bottom: 1rem;
 }

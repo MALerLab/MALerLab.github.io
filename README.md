@@ -28,6 +28,25 @@ FIELDS OF RESEARCH
 ### 1.2. Update Publications
 > _pages/publications.md
 
+To add a `[bib]` copy button for a publication:
+
+**Step 1.** Add a BibTeX entry to `_bibliography/references.bib`:
+```bibtex
+@inproceedings{sixdragons2024,
+  title={Six dragons fly again: ...},
+  author={Han, Danbinaerin and ...},
+  booktitle={Proceedings of ISMIR},
+  year={2024}
+}
+```
+
+**Step 2.** In `_pages/publications.md`, append `[[bib]](#bib:<key>)` to the publication line:
+```markdown
++ *Proceedings of ISMIR* [[pdf]](url) [[code]](url) [[bib]](#bib:sixdragons2024)
+```
+
+The citation key after `#bib:` must match the key in `references.bib`. When a user clicks `[bib]`, the BibTeX entry is copied to their clipboard.
+
 ### 1.3. Update News
 > _pages/news.md
 
