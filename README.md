@@ -79,21 +79,22 @@ You can use Markdown links inside `content`:
 **Step 2.** Add a `details` block to the entry:
 ```yml
 - date: "Feb-3-2023"
-  content: "Jiin An has won excellence award in HCI Korea 2023."
+  content: "Maler has won excellence award in Some-2023."
   details:
-    summary: "The photo of Creativity Award, HCI Korea 2023"
+    summary: "The photo of Creativity Award, Some-2023"
     images:
-      - creativity_award.jpg
+      - award.jpg
     image_style: "width:40%"
 ```
 Clicking the summary text will expand and show the image(s).
+**Note:** Image paths are relative to `assets/images/`.
 
 #### Adding a collapsible section with HTML (e.g., Twitter embed)
 ```yml
 - date: "Feb-10-2023"
-  content: "We won first-prize award in AI Music Generation Challenge 2022!"
+  content: "We won first-prize award in AI Music Generation Challenge!"
   details:
-    summary: "The tweets from Prof. Dasaem Jeong"
+    summary: "The tweets from the official account of the challenge"
     html: |
       <blockquote class="twitter-tweet"><p>...</p></blockquote>
       <script async src="https://platform.twitter.com/widgets.js"></script>
@@ -106,16 +107,24 @@ Clicking the summary text will expand and show the image(s).
 
 <br/>
 
-## 3. How to Run in Local
-### 3.1. Install Ruby First
-```
-gem install bundler jekyll
+## 3. How to Run Locally
+
+**Requirements:** Ruby >= 3.4
+
+### 3.1. First-time Setup
+```bash
+gem install bundler
 bundle install
 ```
-- This command will install all the dependencies in the Gemfile.
 
-### 3.2. Run!
+### 3.2. After Pulling Updates
+If dependencies have changed:
+```bash
+bundle install
 ```
-jekyll serve
+
+### 3.3. Run
+```bash
+bundle exec jekyll serve
 ```
 
