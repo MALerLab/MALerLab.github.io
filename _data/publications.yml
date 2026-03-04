@@ -1,0 +1,271 @@
+# Publications of MALer Lab
+# Fields: title (required), year (required), authors (required), venue (required),
+#         note (optional), links (optional, use >- for multiline)
+# Lab members should be **bolded** in authors field.
+
+# ── 2025 ──
+
+- title: "U-MusT: A Unified Framework for Cross-modal Translation of Score Images, Symbolic Music, and Performance Audio"
+  year: 2025
+  authors: >-
+    **Jongmin Jung**, **Dongmin Kim**, **Sihun Lee**, **Seola Cho**,
+    Hyungjoon So, Irmak Bukey, Chris Donahue, and **Dasaem Jeong**
+  venue: "IEEE Transactions on Audio, Speech and Language Processing"
+  links: >-
+    [[IEEE]](https://doi.org/10.1109/TASLPRO.2025.3648794)
+    [[GitHub]](https://github.com/MALerLab/youtube-score-video-dataset)
+    [[bib]](#bib:umust2025)
+
+- title: "On the de-duplication of the Lakh MIDI dataset"
+  year: 2025
+  authors: >-
+    Eunjin Choi, **Hyerin Kim, Jiwoo Ryu**, Juhan Nam, and **Dasaem Jeong**
+  venue: "Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2025program.ismir.net/poster_188.html)
+    [[arXiv]](https://arxiv.org/abs/2509.16662)
+    [[GitHub]](https://github.com/jech2/LMD_Deduplication)
+    [[demo]](https://jech2.github.io/LMD_Deduplication/)
+    [[bib]](#bib:lmd_dedup_2025)
+
+- title: "WaveRoll: JavaScript Library for Comparative MIDI Piano-Roll Visualization"
+  year: 2025
+  authors: "**Hannah Park, and Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 26th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2025program.ismir.net/lbd_459.html)
+    [[arXiv]](https://arxiv.org/abs/2511.09562)
+    [[GitHub]](https://github.com/crescent-stdio/wave-roll)
+    [[WaveRoll Studio (VSC Extension)]](https://github.com/crescent-stdio/wave-roll-studio)
+    [[bib]](#bib:waveroll2025)
+
+- title: "Exploring Pansori Generation with ACE-Step"
+  year: 2025
+  authors: "**Seola Cho, Minjun Kim, and Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 26th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2025program.ismir.net/lbd_463.html)
+    [[paper]](https://jarammm.github.io/pansorigen/assets/manuscript/463_lbd.pdf)
+    [[demo]](https://jarammm.github.io/pansorigen/)
+
+- title: "ViolinDiff: Enhancing Expressive Violin Synthesis with Pitch Bend Conditioning"
+  year: 2025
+  authors: "**Daewoong Kim**, Hao-Wen Dong, and **Dasaem Jeong**"
+  venue: "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  links: >-
+    [[IEEE]](https://ieeexplore.ieee.org/document/10890613)
+    [[arXiv]](https://arxiv.org/abs/2409.12477)
+    [[GitHub]](https://github.com/daewoung/ViolinDiff)
+
+- title: "On the automatic recognition of Jeongganbo music notation: dataset and approach"
+  year: 2025
+  authors: "**DongMin Kim, Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas"
+  venue: "ACM Journal on Computing and Cultural Heritage (JOCCH)"
+  links: >-
+    [[ACM]](https://dl.acm.org/doi/10.1145/3715159)
+    [[GitHub]](https://github.com/MALerLab/jeongganbo-omr)
+    [[bib]](#bib:jeongganbo-omr2025)
+
+- title: "Can Audio Reveal Music Performance Difficulty? Insights from the Piano Syllabus Dataset"
+  year: 2025
+  authors: "Pedro Ramoneda, **Minhee Lee, Dasaem Jeong**, Jose J. Valero-Mas, Xavier Serra"
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)"
+  links: >-
+    [[IEEE]](https://ieeexplore.ieee.org/document/10878288)
+    [[GitHub]](https://github.com/pramoneda/audio-difficulty)
+    [[bib]](#bib:audio-difficulty2025)
+
+- title: "LAV: Audio-Driven Dynamic Visual Generation with Neural Compression and StyleGAN2"
+  year: 2025
+  authors: "**Jongmin Jung, and Dasaem Jeong**"
+  venue: "30th International Symposium on Electronic/Emerging Art (ISEA), Short Paper"
+  links: >-
+    [[arXiv]](https://arxiv.org/abs/2505.10101)
+    [[YouTube]](https://www.youtube.com/playlist?list=PL3cldJxIjpAzkgpTWlLUxAElsT-5hCHh9)
+
+# ── 2024 ──
+
+- title: "Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation"
+  year: 2024
+  authors: "**Jiwoo Ryu**, Hao-Wen Dong, **Jongmin Jung, and Dasaem Jeong**"
+  venue: "Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2024program.ismir.net/poster_5.html)
+    [[arXiv]](https://arxiv.org/abs/2408.01180)
+    [[GitHub]](https://github.com/JudeJiwoo/nmt)
+    [[bib]](#bib:ryu2024nmt)
+
+- title: "Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding"
+  year: 2024
+  authors: "**Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee, and Dasaem Jeong**"
+  venue: "Proceedings of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  note: "🎉 Best Paper Award (Top 3 among 123 papers) 🎉"
+  links: >-
+    [[ISMIR]](https://ismir2024program.ismir.net/poster_35.html)
+    [[arXiv]](https://arxiv.org/abs/2408.01096)
+    [[GitHub]](https://github.com/MALerLab/SejongMusic)
+    [[bib]](#bib:sixdragons2024)
+
+- title: "MusicGen-Chord: Advancing Music Generation through Chord Progressions and Interactive Web-UI"
+  year: 2024
+  authors: "**Jongmin Jung**, Andreas Jansson, and **Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2024program.ismir.net/lbd_424.html)
+    [[arXiv]](https://arxiv.org/abs/2412.00325)
+
+- title: "Optical Music Recognition for Jeongganbo Notation of Korean Court Music"
+  year: 2024
+  authors: "**Dongmin Kim**, Danbinaerin Han, Jose Javier Valero-Mas and **Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: "[[ISMIR]](https://ismir2024program.ismir.net/lbd_425.html)"
+
+- title: "Towards Computational Analysis of Pansori Singing"
+  year: 2024
+  authors: "Sangheon Park, Danbinaerin Han, and **Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2024program.ismir.net/lbd_503.html)
+    [[arXiv]](https://arxiv.org/abs/2410.12956)
+
+- title: "Boundary Regression for Leitmotif Detection in Music Audio"
+  year: 2024
+  authors: "**Sihun Lee and Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2024program.ismir.net/lbd_506.html)
+    [[GitHub]](https://github.com/MALerLab/leitmotif-boundary-regression)
+
+- title: "K-pop Lyric Translation: Dataset, Analysis, and Neural-Modelling"
+  year: 2024
+  authors: "Haven Kim, **Jongmin Jung, Dasaem Jeong**, and Juhan Nam"
+  venue: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)"
+  links: >-
+    [[ACL]](https://aclanthology.org/2024.lrec-main.872v2.pdf)
+    [[GitHub]](https://github.com/havenpersona/lt_dataset)
+
+- title: "Enriching Music Descriptions With A Finetuned-LLM And Metadata For Text-to-music Retrieval"
+  year: 2024
+  authors: "SeungHeon Doh, **Minhee Lee, Dasaem Jeong**, and Juhan Nam"
+  venue: "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  links: >-
+    [[IEEE]](https://ieeexplore.ieee.org/document/10446380)
+    [[GitHub]](https://github.com/seungheondoh/music-text-representation-pp)
+
+- title: "Towards Efficient and Real-Time Piano Transcription Using Neural Autoregressive Models"
+  year: 2024
+  authors: "Taegyun Kwon, **Dasaem Jeong**, and Juhan Nam"
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+  links: >-
+    [[IEEE]](https://ieeexplore.ieee.org/document/10769033)
+    [[demo]](https://taegyunkwon.github.io/PARpiano/)
+
+# ── 2023 ──
+
+- title: "Finding Tori: Self-supervised Learning for Analyzing Korean Folk Song"
+  year: 2023
+  authors: "**Danbinaerin Han**, Rafael Caro Repetto, and **Dasaem Jeong**"
+  venue: "Proceedings of 24th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[arXiv]](https://arxiv.org/abs/2308.02249)
+    [[GitHub]](https://github.com/danbinaerinHan/finding-tori)
+    [[demo]](https://danbinaerinhan.github.io/korean-folksong-visualization/)
+
+- title: "Predicting Performance Difficulty from Piano Sheet Music Images"
+  year: 2023
+  authors: "Pedro Ramoneda, Jose J. Valero-Mas, **Dasaem Jeong**, and Xavier Serra"
+  venue: "Proceedings of 24th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[paper]](https://repositori.upf.edu/bitstream/handle/10230/58122/Ramoneda_ism_pred.pdf)
+    [[GitHub]](https://github.com/PRamoneda/PDF-difficulty)
+
+- title: "Combining Piano Performance Dimensions for Score Difficulty Classification"
+  year: 2023
+  authors: "Pedro Ramoneda, **Dasaem Jeong**, Vsevolod Eremenko, Nazif Can Tamer, Marius Miron, Xavier Serra"
+  venue: "Expert Systems with Applications"
+  links: >-
+    [[Elsevier]](https://doi.org/10.1016/j.eswa.2023.121776)
+    [[GitHub]](https://github.com/PRamoneda/difficulty-prediction-CIPI)
+
+- title: "Aligning Incomplete Lyrics of Korean Folk Song Dataset using Whisper"
+  year: 2023
+  authors: "**Danbinaerin Han, Daewoong Kim, and Dasaem Jeong**"
+  venue: "Proceedings of 10th International Conference on Digital Libraries for Musicology (DLfM)"
+  links: >-
+    [[ACM]](https://dl.acm.org/doi/10.1145/3625135.3625154)
+    [[GitHub]](https://github.com/MalerLab/RefWhisper)
+
+- title: "Annotator Subjectivity in the MusicCaps Dataset"
+  year: 2023
+  authors: "**Minhee Lee**, Seungheon Doh and **Dasaem Jeong**"
+  venue: "2nd Workshop on Human-Centric Music Information Research (HCMIR23)"
+  links: >-
+    [[paper]](https://ceur-ws.org/Vol-3528/paper6.pdf)
+    [[slides]](https://drive.google.com/file/d/1us0a_XCRl9_EyemjUE6SSicn7kvoRbfe/view)
+
+- title: "AutoOsu: Audio-Aware Action Generation for Rhythm Games"
+  year: 2023
+  authors: "**Sihun Lee and Dasaem Jeong**"
+  venue: "Late Breaking/Demo (LBD) of 24th International Society for Music Information Retrieval Conference (ISMIR)"
+  links: >-
+    [[ISMIR]](https://ismir2023program.ismir.net/lbd_319.html)
+    [[paper]](https://drive.google.com/file/d/1zdgVPPRPBEueRfVDUl5yBUWrh_eWAJ3O)
+
+- title: "Teaching Chorale Generation Model to Avoid Parallel Motions"
+  year: 2023
+  authors: "Eunjin Choi, **Hyerin Kim**, Juhan Nam, and **Dasaem Jeong**"
+  venue: "Proceedings of 16th International Symposium on Computer Music Multidisciplinary Research (CMMR)"
+  links: "[[Zenodo]](https://zenodo.org/records/10112462)"
+
+- title: "Construction of Debiased Korean AI Fairytale Generator"
+  year: 2023
+  authors: "**Jiin An**, Saetbyeol Leeyouk, Yewon Jang, and **Dasaem Jeong**"
+  venue: "Journal of Digital Contents Society, Vol. 24, No. 7, pp. 1513-1528, 2023."
+  links: >-
+    [[paper]](https://doi.org/10.9728/dcs.2023.24.7.1513)
+    [[KCI]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002983562)
+
+- title: "VirtuosoTune: Hierarchical Melody Language Model"
+  year: 2023
+  authors: "**Dasaem Jeong**"
+  venue: "IEIE Transactions on Smart Processing & Computing, Vol. 12, No. 4, pp. 329-333, 2023."
+  links: >-
+    [[paper]](http://ieiespc.org/AURIC_OPEN_temp/RDOC/ieie03/ieietspc_202308_006.pdf)
+    [[GitHub]](https://github.com/jdasam/VirtuosoTune)
+
+- title: "Reducing Latency of Neural Automatic Piano Transcription Models"
+  year: 2023
+  authors: "**Dasol Lee** and **Dasaem Jeong**"
+  venue: "The Journal of the Acoustical Society of Korea Volume 42 Issue 2, 2023."
+  links: >-
+    [[paper]](https://www.jask.or.kr/articles/xml/XgKP/)
+    [[KCI]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002946395)
+
+- title: "Fantastic AI Sinawi: Composing Korean Traditional Music Using Deep Neural Networks"
+  year: 2023
+  authors: "**Hannah Park**, **Danbinaerin Han**, Chaeryeong Oh, and **Dasaem Jeong**"
+  venue: "Journal of Digital Contents Society, Vol. 24, No. 4, pp. 785-796, 2023."
+  note: "The 23rd International Society for Music Information Retrieval Conference (ISMIR 2022) Music Program"
+  links: >-
+    [[ISMIR]](https://ismir2022program.ismir.net/music_347.html)
+    [[paper]](https://doi.org/10.9728/dcs.2023.24.4.785)
+    [[KCI]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002952465)
+    [[YouTube]](https://www.youtube.com/watch?v=JQMfEKEXb0s)
+
+- title: "A Study of Audio Mixing Methods for Piano Transcription in Violin-Piano Ensembles"
+  year: 2023
+  authors: "Hyemi Kim, Jiyun Park, Taegyun Kwon, **Dasaem Jeong**, and Juhan Nam"
+  venue: "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023"
+  links: >-
+    [[IEEE]](https://ieeexplore.ieee.org/document/10095061)
+    [[arXiv]](https://arxiv.org/abs/2305.13758)
+
+# ── 2022 ──
+
+- title: "Automatic Piano Fingering from Partially Annotated Scores Using Autoregressive Neural Networks"
+  year: 2022
+  authors: "Pedro Ramoneda, **Dasaem Jeong**, Eita Nakamura, Xavier Serra, and Marius Miron"
+  venue: "Proceedings of 30th ACM International Conference on Multimedia (MM'22), 2022"
+  links: >-
+    [[ACM]](https://dl.acm.org/doi/10.1145/3503161.3548372)
+    [[paper]](https://repositori.upf.edu/handle/10230/54308)

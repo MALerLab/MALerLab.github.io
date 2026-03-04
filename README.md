@@ -26,26 +26,25 @@ FIELDS OF RESEARCH
 ```
 
 ### 1.2. Update Publications
-> _pages/publications.md
+> _data/publications.yml
 
-To add a `[bib]` copy button for a publication:
+Add new entries under the appropriate year (or add a new `year` value). The list is sorted by year automatically.
 
-**Step 1.** Add a BibTeX entry to `_bibliography/references.bib`:
-```bibtex
-@inproceedings{sixdragons2024,
-  title={Six dragons fly again: ...},
-  author={Han, Danbinaerin and ...},
-  booktitle={Proceedings of ISMIR},
-  year={2024}
-}
+```yml
+- title: "Your Paper Title"
+  year: 2025
+  authors: "**Lab Member**, External Author, and **Dasaem Jeong**"
+  venue: "Conference or Journal Name"
+  links: >-
+    [[arXiv]](https://arxiv.org/abs/...)
+    [[GitHub]](https://github.com/...)
+    [[bib]](#bib:your_bib_key)
 ```
 
-**Step 2.** In `_pages/publications.md`, append `[[bib]](#bib:<key>)` to the publication line:
-```markdown
-+ *Proceedings of ISMIR* [[pdf]](url) [[code]](url) [[bib]](#bib:sixdragons2024)
-```
-
-The citation key after `#bib:` must match the key in `references.bib`. When a user clicks `[bib]`, the BibTeX entry is copied to their clipboard.
+- Wrap **lab member names** in double asterisks: `**Name**`
+- For awards, add: `note: "🎉 Best Paper Award 🎉"`
+- For a `[bib]` button, first add the BibTeX entry to `_bibliography/references.bib`,
+  then include `[[bib]](#bib:<key>)` in `links`. The citation key must match `references.bib`.
 
 ### 1.3. Update News
 > _data/news.yml
