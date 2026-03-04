@@ -1,4 +1,5 @@
 // _sass/_base.scss
+@use "variables" as v;
 
 *,
 *::before,
@@ -9,35 +10,35 @@
 }
 
 body {
-  color: var(--primary-color); /* 텍스트 색상 */
+  color: var(--primary-color); /* text color */
   font-size: calc(0.9rem + 0.25vw);
-  background-color: var(--secondary-color); /* 배경 색상 */
+  background-color: var(--secondary-color); /* background color */
   line-height: 1.6;
   overflow-x: hidden;
   padding: 0 2rem;
-  font-family: $font-stack;
+  font-family: v.$font-stack;
 }
 
 h1,
 h2,
 h3 {
   font-weight: 700;
-  color: var(--primary-color); /* 제목 텍스트 색상 */
+  color: var(--primary-color); /* heading text color */
 }
 
 p {
-  color: var(--text-color); /* 본문 텍스트 색상 */
+  color: var(--text-color); /* body text color */
 }
 
 a {
-  color: var(--accent-color); /* 링크 색상 */
+  color: var(--accent-color); /* link color */
   //   text-decoration: none;
-  transition: color $transition-speed;
+  transition: color v.$transition-speed;
 }
 
 a:hover {
-  /* hover 상태에서 색상을 지정 (darken을 대신할 직접 색상 사용) */
-  color: $accent-hover;
+  /* explicit hover color instead of darken() */
+  color: v.$accent-hover;
 }
 
 strong {
@@ -52,7 +53,7 @@ ol {
 ul li,
 ol li {
   margin-bottom: 0.75rem;
-  color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+  color: var(--text-color); /* list item text color */
 }
 
 .container {
@@ -73,7 +74,7 @@ ol li {
     color: var(--primary-color);
   }
   p {
-    color: var(--text-color); /* 본문 텍스트 색상 */
+    color: var(--text-color); /* body text color */
     margin-bottom: 0rem;
   }
   hr {
@@ -82,7 +83,7 @@ ol li {
     border-top: 1px solid var(--shadow-color);
   }
   li {
-    color: var(--text-color); /* 리스트 항목 텍스트 색상 */
+    color: var(--text-color); /* list item text color */
     margin-bottom: 0.5rem;
   }
   li > details {
@@ -121,15 +122,15 @@ ol li {
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 600;
-  color: $red-dark;
-  background-color: $red-bg;
+  color: v.$red-dark;
+  background-color: v.$red-bg;
   padding: 0.15rem 0.3rem;
   border-radius: 2px;
   line-height: 1.3;
 }
 
 .news-list > li::marker {
-  color: $red-bullet;
+  color: v.$red-bullet;
 }
 
 a:hover {

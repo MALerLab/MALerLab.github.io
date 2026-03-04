@@ -2,11 +2,11 @@
 # YAML front matter
 ---
 
-@import "variables";
-@import "base";
-@import "header";
-@import "theme";
-@import "buttons";
-@import "footer";
-@import "layout";
-@import "responsive";
+@use "variables";
+@use "base";
+@use "header";
+@use "theme";
+@use "buttons";
+@use "footer";
+@use "layout";
+@use "responsive";
