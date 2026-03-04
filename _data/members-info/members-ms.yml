@@ -26,3 +26,17 @@
   interests:
     - Real-time Interactive Music Systems
     - Music Performance Analysis
+- name_en: Sojeong An
+  name_ko: 안소정
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  image: members/sojeong_an_profile.jpeg
+  interests:
+    - Interactive Music AI
+    - Automatic Music transcription & Controllable Generation
+- name_en: Seola Cho
+  name_ko: 조설아
+  role: Digital Human & Entertainment (DHE) Program, Graduate School of AI
+  image: members/seola_cho_profile.jpg
+  interests:
+    - Automatic Music Transcription
+    - Symbolic Music Generation
