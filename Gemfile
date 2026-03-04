@@ -36,3 +36,4 @@ gem 'jekyll-scholar', group: :jekyll_plugins
 gem 'jekyll-sitemap', group: :jekyll_plugins
 gem 'jekyll-archives', group: :jekyll_plugins
 gem 'jekyll-seo-tag', group: :jekyll_plugins
+gem 'rexml', '>= 3.3.9'
