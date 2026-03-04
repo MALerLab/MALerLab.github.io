@@ -48,7 +48,56 @@ To add a `[bib]` copy button for a publication:
 The citation key after `#bib:` must match the key in `references.bib`. When a user clicks `[bib]`, the BibTeX entry is copied to their clipboard.
 
 ### 1.3. Update News
-> _pages/news.md
+> _data/news.yml
+
+Add new entries **at the top** of the file so the latest news appears first.
+
+#### Basic entry
+```yml
+- date: "June-2025"
+  content: "Our paper got accepted for ISMIR 2025!"
+```
+This will be displayed as:
+```
+[June-2025] Our paper got accepted for ISMIR 2025!
+```
+
+#### Using links in content
+You can use Markdown links inside `content`:
+```yml
+- date: "Sep-2-2023"
+  content: >-
+    One paper got accepted to [DLfM](https://dlfm.web.ox.ac.uk/).
+    Danbinaerin Han and Daewoong Kim contributed to this work.
+```
+> **Tip:** Use `>-` when your text spans multiple lines. It joins the lines into a single paragraph.
+
+#### Adding a collapsible section with images
+
+**Step 1.** Place your image file in the `assets/images/` folder.
+
+**Step 2.** Add a `details` block to the entry:
+```yml
+- date: "Feb-3-2023"
+  content: "Jiin An has won excellence award in HCI Korea 2023."
+  details:
+    summary: "The photo of Creativity Award, HCI Korea 2023"
+    images:
+      - creativity_award.jpg
+    image_style: "width:40%"
+```
+Clicking the summary text will expand and show the image(s).
+
+#### Adding a collapsible section with HTML (e.g., Twitter embed)
+```yml
+- date: "Feb-10-2023"
+  content: "We won first-prize award in AI Music Generation Challenge 2022!"
+  details:
+    summary: "The tweets from Prof. Dasaem Jeong"
+    html: |
+      <blockquote class="twitter-tweet"><p>...</p></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js"></script>
+```
 
 <br/>
 
