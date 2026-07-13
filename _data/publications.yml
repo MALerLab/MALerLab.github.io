@@ -3,6 +3,38 @@
 #         note (optional), links (optional, use >- for multiline)
 # Lab members should be **bolded** in authors field.
 
+# ── 2026 ──
+
+- title: "A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"
+  year: 2026
+  authors: "**DongMin Kim**, Brian Liu, Jose J. Valero-Mas, and **Dasaem Jeong**"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
+- title: "Full-page Recognition of Handwritten Jeongganbo Music Scores: Dataset and Approach"
+  year: 2026
+  authors: "Carlos Penarrubia, **Danbinaerin Han, Dasaem Jeong**, and Jose J. Valero-Mas"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
+- title: "Local Multimodal Music Alignment from Global Supervision"
+  year: 2026
+  authors: "Irmak Bukey, Zachary Novack, **Jongmin Jung, Dasaem Jeong**, and Chris Donahue"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
+- title: "Frame-Level Pansori Mode Classification with Complementary Audio Representations"
+  year: 2026
+  authors: "**Sangheon Park, Seonguk Ju, Suin Chung, Danbinaerin Han, and Dasaem Jeong**"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
+- title: "Pitch Contour Tokenization using VQ-VAE and Its Application on Korean Traditional Music Analysis"
+  year: 2026
+  authors: "**Seonguk Ju, Seola Cho, Suin Chung, Danbinaerin Han, and Dasaem Jeong**"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
+- title: "Measuring Cross-Cultural Style Diffusion Through Era Classification: A Case Study of US and Korean Popular Music"
+  year: 2026
+  authors: "**Dasol Lee, Minhee Lee, Seonguk Ju, Daewoong Kim**, Harin Lee, and **Dasaem Jeong**"
+  venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+
 # ── 2025 ──
 
 - title: "U-MusT: A Unified Framework for Cross-modal Translation of Score Images, Symbolic Music, and Performance Audio"
@@ -122,7 +154,7 @@
 
 - title: "Towards Computational Analysis of Pansori Singing"
   year: 2024
-  authors: "Sangheon Park, Danbinaerin Han, and **Dasaem Jeong**"
+  authors: "**Sangheon Park, Danbinaerin Han, and Dasaem Jeong**"
   venue: "Late Breaking/Demo (LBD) of 25th International Society for Music Information Retrieval Conference (ISMIR)"
   links: >-
     [[ISMIR]](https://ismir2024program.ismir.net/lbd_503.html)
