@@ -35,6 +35,14 @@
   authors: "Irmak Bukey, Zachary Novack, **Jongmin Jung, Dasaem Jeong**, and Chris Donahue"
   venue: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
 
+- title: "Six Dragons Fly Again: A Journey of Reviving 15th-century Korean Court Music"
+  year: 2026
+  authors: "**Danbinaerin Han**, Mark Gotham, **Dongmin Kim, Hannah Park, Sihun Lee**, Jeonggyeong Park, and **Dasaem Jeong**"
+  venue: "Transactions of the International Society for Music Information Retrieval (TISMIR), Vol. 9, No. 1, pp. 86–101"
+  links: >-
+    [[TISMIR]](https://transactions.ismir.net/articles/10.5334/tismir.286)
+    [[GitHub]](https://github.com/MALerLab/SejongMusic)
+
 # ── 2025 ──
 
 - title: "U-MusT: A Unified Framework for Cross-modal Translation of Score Images, Symbolic Music, and Performance Audio"
