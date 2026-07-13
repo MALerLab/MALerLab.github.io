@@ -21,7 +21,9 @@ excerpt: "MALer Lab (Music & Arts Learning Lab), Sogang University, Seoul, Korea
 ---
 <br/>
 
-We are not accepting new Master's/Ph.D. students for the 2026 Fall semester (26년 2학기 신입생은 모집하지 않습니다). Please check back for future openings.
+Due to our current funding situation, it is difficult for us to take on new students. For the time being, we are unable to guarantee financial support, including tuition and a monthly stipend, for incoming Master's/Ph.D. students. Partial support may be available for students in the Department of Art & Technology if selected for the Professional Manpower Training for XR (XR 전문인력양성사업), though this is not guaranteed. We therefore ask that you consider applying only if you are able to secure your own funding (e.g., external scholarships or self-funding).
+
+(현재로서는 신입생을 새로 받기 어려운 상황이며, 당분간 신입생에게 등록금 및 인건비 지원을 보장하기 어렵습니다. 아트&테크놀로지학과의 경우 XR 전문인력양성사업에 선정될 경우 일부 지원이 가능할 수 있으나, 이 역시 보장되지는 않습니다. 따라서 기본적으로 self-funding(자비 또는 외부 장학금 등)이 가능한 경우에 한해 지원을 고려해 주시기 바랍니다.)
 
 <!--
 If you are interested in Deep Learning based Music Information Retrieval (MIR), especially in topics such as:
