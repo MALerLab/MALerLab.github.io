@@ -201,6 +201,42 @@ excerpt: "Members of MALer Lab"
 <br/>
 {% endif %}
 
+## Collaborating Researchers
+<div class="grid member-cards">
+{% for member in site.data.members-info.members-collab %}
+    <div class="card member-card member-card-compact">
+        <div class="member-info">
+            <div class="member-header">
+                <h3>
+                    <span class="name-en">{{ member.name_en }}</span>
+                    {% if member.name_ko %}
+                    <span class="name-ko">{{ member.name_ko }}</span>
+                    {% endif %}
+                </h3>
+                {% if member.website %}
+                <span class="separator">|</span>
+                <div class="member-links">
+                    {% assign website_type = member.website | type_of %}
+                    {% if website_type == 'string' %}
+                    <a href="{{ member.website }}" target="_blank" class="btn-link">Website</a>
+                    {% else %}
+                    {% for link in member.website %}
+                    <a href="{{ link[1] }}" target="_blank" class="btn-link">{{ link[0] }}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            {% if member.role %}
+            <p class="member-role">{{ member.role }}</p>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+<br/>
+
 ## Alumni
 <div class="grid member-cards">
 {% for member in site.data.members-info.members-alumni %}
@@ -243,6 +279,51 @@ excerpt: "Members of MALer Lab"
                 <ul>
                 {% for interest in member.interests %}
                     <li>{{ interest }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+<br/>
+
+## Former Interns & Visiting Students
+<div class="grid member-cards">
+{% for member in site.data.members-info.members-intern-alumni %}
+    <div class="card member-card member-card-compact">
+        <div class="member-info">
+            <div class="member-header">
+                <h3>
+                    <span class="name-en">{{ member.name_en }}</span>
+                    {% if member.name_ko %}
+                    <span class="name-ko">{{ member.name_ko }}</span>
+                    {% endif %}
+                </h3>
+                {% if member.website %}
+                <span class="separator">|</span>
+                <div class="member-links">
+                    {% assign website_type = member.website | type_of %}
+                    {% if website_type == 'string' %}
+                    <a href="{{ member.website }}" target="_blank" class="btn-link">Website</a>
+                    {% else %}
+                    {% for link in member.website %}
+                    <a href="{{ link[1] }}" target="_blank" class="btn-link">{{ link[0] }}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            {% if member.role %}
+            <p class="member-role">{{ member.role }}</p>
+            {% endif %}
+            {% if member.publications %}
+            <div class="member-pubs">
+                <ul>
+                {% for pub in member.publications %}
+                    <li>{{ pub.title }} <span class="pub-venue">({{ pub.venue }})</span></li>
                 {% endfor %}
                 </ul>
             </div>

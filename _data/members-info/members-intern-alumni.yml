@@ -1,0 +1,47 @@
+- name_en: Minhee Lee
+  name_ko: 이민희
+  role: Undergraduate Intern (Computer Science and Engineering, Sogang University) -> Music and Audio Computing Lab, KAIST
+  publications:
+    - title: "Measuring Cross-Cultural Style Diffusion Through Era Classification: A Case Study of US and Korean Popular Music"
+      venue: ISMIR 2026
+    - title: "Can Audio Reveal Music Performance Difficulty? Insights from the Piano Syllabus Dataset"
+      venue: IEEE/ACM TASLP 2025
+    - title: "Enriching Music Descriptions With A Finetuned-LLM And Metadata For Text-to-music Retrieval"
+      venue: ICASSP 2024
+    - title: "Annotator Subjectivity in the MusicCaps Dataset"
+      venue: HCMIR 2023
+- name_en: Jiin An
+  name_ko: 안지인
+  role: Undergraduate Intern (Art & Technology, Sogang University)
+  publications:
+    - title: "Construction of Debiased Korean AI Fairytale Generator"
+      venue: Journal of Digital Contents Society 2023
+- name_en: Minjun Kim
+  name_ko: 김민준
+  role: Undergraduate Intern (Yonsei University)
+  publications:
+    - title: "Exploring Pansori Generation with ACE-Step"
+      venue: ISMIR LBD 2025
+- name_en: Sangheon Park
+  name_ko: 박상헌
+  role: Visiting Student (Georgia Institute of Technology)
+  publications:
+    - title: "Frame-Level Pansori Mode Classification with Complementary Audio Representations"
+      venue: ISMIR 2026
+    - title: "Towards Computational Analysis of Pansori Singing"
+      venue: ISMIR LBD 2024
+- name_en: Carlos Penarrubia
+  role: Visiting Ph.D Student (PRAIG, University of Alicante)
+  website:
+    Google Scholar: https://scholar.google.com/citations?user=VL51kI0AAAAJ
+    PRAIG: https://praig.ua.es/
+  publications:
+    - title: "Full-page Recognition of Handwritten Jeongganbo Music Scores: Dataset and Approach"
+      venue: ISMIR 2026
+- name_en: Brian Liu
+  role: Visiting Researcher (Thomas J. Watson Fellow)
+  website:
+    Homepage: https://brianliu.me/
+  publications:
+    - title: "A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores"
+      venue: ISMIR 2026

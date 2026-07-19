@@ -252,6 +252,52 @@ img + em {
   }
 }
 
+// Compact card - no photo, tighter padding (collaborators & former interns)
+.member-card-compact {
+  padding: 1rem 2rem;
+
+  .member-info .member-role {
+    margin-bottom: 0.4rem;
+  }
+
+  .member-pubs {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+
+      li {
+        font-size: 0.85rem;
+        color: var(--text-color);
+        line-height: 1.5;
+        font-weight: 400;
+        opacity: 0.85;
+        padding-left: 1rem;
+        position: relative;
+
+        &:before {
+          content: "•";
+          position: absolute;
+          left: 0;
+          opacity: 0.5;
+        }
+
+        .pub-venue {
+          opacity: 0.65;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
 // Professor card - image on the left (desktop only)
 .member-card-prof {
   .member-info {
