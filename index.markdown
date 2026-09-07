@@ -25,6 +25,10 @@ Due to our current funding situation, it is difficult for us to take on new stud
 
 (현재로서는 신입생을 새로 받기 어려운 상황이며, 당분간 신입생에게 등록금 및 인건비 지원을 보장하기 어렵습니다. 아트&테크놀로지학과의 경우 XR 전문인력양성사업에 선정될 경우 일부 지원이 가능할 수 있으나, 이 역시 보장되지는 않습니다. 따라서 기본적으로 self-funding(자비 또는 외부 장학금 등)이 가능한 경우에 한해 지원을 고려해 주시기 바랍니다.)
 
+For the current recruitment cycle, we will not be able to accept new students for Spring 2027. Admission for Fall 2027 will also be difficult except in exceptional circumstances.
+
+(27년 1학기 신입생은 모집하지 않습니다. 27년 2학기도 특별한 경우가 아니면 모집하지 않을 예정입니다.)
+
 <!--
 If you are interested in Deep Learning based Music Information Retrieval (MIR), especially in topics such as:
 - MIR for Music Education
@@ -46,4 +50,3 @@ For admission, you can refer following websites. But please contact [here](mailt
 If you're interested in the research conducted in our lab, we highly recommend taking AATG015 - Deep Learning for Music & Audio as it provides a solid foundation for the work we do and will give you a head start on potential research projects in the future.
 
 <!--For any questions or further information, please contact [here](mailto:dasaemj@sogang.ac.kr)-->
-
